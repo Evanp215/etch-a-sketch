@@ -6,8 +6,20 @@ body {
   display: flex;
   justify-content: center;
   background-color: lightblue;
+  margin-bottom: 50px; //remove after styling options
 }
 #headerContainer > h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 50px;
+}
+#gridLayer {
+  display: flex;
+  justify-content: center;
+}
+#gridContainer {
+  display: flex;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  height: 432px;
+  width: 432px;
 }
