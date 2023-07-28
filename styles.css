@@ -16,11 +16,10 @@ body {
   justify-content: center;
 }
 #gridContainer {
-  display: flex;
-  border: 2px solid black;
-  flex-wrap: wrap;
-  height: 432px;
-  width: 432px;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  border: 1px solid black;
 }
 .optionsContainer {
   display: flex;
