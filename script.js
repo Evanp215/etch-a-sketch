@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log("hello");
+  createGrid(6);
 });
+
+const selectSize = document.querySelector('#popup');
+  selectSize.addEventListener('click', getSize);
 
 function createGrid(size) {
   const grid = document.querySelector('#gridContainer');
@@ -10,7 +14,7 @@ function createGrid(size) {
 
   let numDivs = size * size;
   
-  for(let i = 0; 1 < numDivs; i++) {
+  for(let i = 0; i < numDivs; i++) {
     let div = document.createElement('div');
     grid.insertAdjacentElement('beforeend', div);
   }
